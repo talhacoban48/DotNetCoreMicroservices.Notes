@@ -1,0 +1,5 @@
+/Users/talha/projects/dotNET Core Microservices/Mango/obj/Debug/net9.0/Mango.GeneratedMSBuildEditorConfig.editorconfig
+/Users/talha/projects/dotNET Core Microservices/Mango/obj/Debug/net9.0/Mango.AssemblyInfoInputs.cache
+/Users/talha/projects/dotNET Core Microservices/Mango/obj/Debug/net9.0/Mango.AssemblyInfo.cs
+/Users/talha/projects/dotNET Core Microservices/Mango/obj/Debug/net9.0/Mango.csproj.CoreCompileInputs.cache
+/Users/talha/projects/dotNET Core Microservices/Mango/obj/Debug/net9.0/Mango.MvcApplicationPartsAssemblyInfo.cache
