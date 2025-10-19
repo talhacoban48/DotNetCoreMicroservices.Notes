@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/talha/projects/dotNET Core Microservices/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj": {}
+    "/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj": {}
   },
   "projects": {
-    "/Users/talha/projects/dotNET Core Microservices/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj": {
+    "/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/talha/projects/dotNET Core Microservices/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj",
+        "projectUniqueName": "/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj",
         "projectName": "Mango.Services.CouponAPI",
-        "projectPath": "/Users/talha/projects/dotNET Core Microservices/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj",
+        "projectPath": "/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj",
         "packagesPath": "/Users/talha/.nuget/packages/",
-        "outputPath": "/Users/talha/projects/dotNET Core Microservices/Mango/Mango.Services.CouponAPI/obj/",
+        "outputPath": "/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Services.CouponAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/talha/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DEEQpoE8zLQ=",
+  "dgSpecHash": "MlDOyPuxUUU=",
   "success": true,
-  "projectFilePath": "/Users/talha/projects/dotNET Core Microservices/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj",
+  "projectFilePath": "/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Services.CouponAPI/Mango.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "/Users/talha/.nuget/packages/automapper/15.0.1/automapper.15.0.1.nupkg.sha512",
     "/Users/talha/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
