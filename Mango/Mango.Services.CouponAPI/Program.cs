@@ -36,7 +36,7 @@ ApplyMigrations();
 
 app.Run();
 
-// dotnet ef database update AddCouponToDb
+// dotnet ef database add AddCouponToDb
 // dotnet ef database update AddCouponToDb
 // 
 
