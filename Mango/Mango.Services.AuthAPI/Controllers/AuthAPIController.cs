@@ -17,7 +17,7 @@ public class AuthAPIController : ControllerBase
         _response = new ResponseDto();
     }
 
-    [HttpPost("register")]
+    [HttpPost("Register")]
     public async Task<IActionResult> Register([FromBody] RegisterRequestDto registerRequest)
     {
         var errorMessage = await _authService.Register(registerRequest);
@@ -30,7 +30,7 @@ public class AuthAPIController : ControllerBase
         return Ok(_response);
     }
     
-    [HttpPost("login")]
+    [HttpPost("Login")]
     public async Task<IActionResult> Login([FromBody] LoginRequestDto loginRequest)
     {
         var loginResponse = await _authService.Login(loginRequest);
