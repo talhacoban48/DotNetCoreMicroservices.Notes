@@ -25,10 +25,10 @@ public class CouponService: ICouponService
     public async Task<ResponseDto?> GetAllCouponAsync()
     {
         return await _baseService.SendAsync(new RequestDto()
-        {
-            ApiType = SD.ApiType.GET,
-            Url = SD.CouponAPIBase + "/api/coupon"
-        });
+                   {
+                       ApiType = SD.ApiType.GET,
+                       Url = SD.CouponAPIBase + "/api/coupon"
+                   });
     }
 
     public async Task<ResponseDto?> GetCouponByIdAsync(int couponId)

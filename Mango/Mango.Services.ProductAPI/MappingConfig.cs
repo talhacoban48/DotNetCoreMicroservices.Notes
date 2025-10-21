@@ -10,8 +10,8 @@ public class MappingConfig
     {
         return new MapperConfiguration(cfg =>
         {
-            cfg.CreateMap<Product, ProductDto>();
             cfg.CreateMap<ProductDto, Product>();
+            cfg.CreateMap<Product, ProductDto>();
         }, LoggerFactory.Create(builder => 
         {
             builder.AddConsole();
