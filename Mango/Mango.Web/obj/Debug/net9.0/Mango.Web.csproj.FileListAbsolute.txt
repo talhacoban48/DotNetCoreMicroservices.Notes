@@ -96,7 +96,6 @@
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/obj/Debug/net9.0/Mango.Web.pdb
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/obj/Debug/net9.0/Mango.Web.genruntimeconfig.cache
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/obj/Debug/net9.0/ref/Mango.Web.dll
-/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/obj/Debug/net9.0/compressed/9v2p2a81xe-7eacegz0mw.gz
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/obj/Debug/net9.0/compressed/d3wn908int-iwsscw0ebv.gz
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/obj/Debug/net9.0/compressed/g9508pcht6-iwsscw0ebv.gz
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
@@ -104,3 +103,4 @@
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
 /Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Web/obj/Debug/net9.0/compressed/9v2p2a81xe-o2bc9ep49f.gz
