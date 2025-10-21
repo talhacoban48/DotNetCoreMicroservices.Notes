@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lsq1j2DQCFY=",
+  "success": true,
+  "projectFilePath": "/Users/talha/projects/DOTNETCoreMicroservicesNotlar/Mango/Mango.Services.ShoppingCardAPI/Mango.Services.ShoppingCardAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/talha/.nuget/packages/microsoft.aspnetcore.openapi/9.0.4/microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "/Users/talha/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
