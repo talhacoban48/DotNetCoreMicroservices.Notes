@@ -115,7 +115,6 @@ public class AuthController : Controller
         var valueUserName = jwt.Claims.FirstOrDefault(u => u.Type == JwtRegisteredClaimNames.Name)?.Value;
         var valueUserRole = jwt.Claims.FirstOrDefault(u => u.Type == "role")?.Value;
 
-
         if (valueEmail != null && valueId != null && valueUserName != null && valueUserRole != null)
         {
             identity.AddClaim(new Claim(JwtRegisteredClaimNames.Email, valueEmail));
