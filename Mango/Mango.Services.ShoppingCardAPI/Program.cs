@@ -20,8 +20,10 @@ builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICouponService, CouponService>();
 
-builder.Services.AddHttpClient("Product", u => u.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ServiceUrls:ProductUrl")));
+builder.Services.AddHttpClient("Product", u => u.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ServiceUrls:ProductAPI")));
+builder.Services.AddHttpClient("Coupon", u => u.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ServiceUrls:CouponAPI")));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
