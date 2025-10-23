@@ -2,6 +2,8 @@ using AutoMapper;
 using Mango.Services.ShoppingCardAPI;
 using Mango.Services.ShoppingCardAPI.Data;
 using Mango.Services.ShoppingCardAPI.Extentions;
+using Mango.Services.ShoppingCardAPI.Service;
+using Mango.Services.ShoppingCardAPI.Service.IService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -16,6 +18,8 @@ builder.Services.AddDbContext<AppDbContext>(option =>
 IMapper mapper = MappingConfig.RegisterMappings().CreateMapper();
 builder.Services.AddSingleton(mapper);
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<IProductService, ProductService>();
 
 builder.Services.AddHttpClient("Product", u => u.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ServiceUrls:ProductUrl")));
 
