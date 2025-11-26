@@ -41,7 +41,7 @@ public class CartAPIController : ControllerBase
                 CartHeader = _mapper.Map<CartHeaderDto>(_db.CartHeaders.First(u => u.UserId == userId)),
             };
             cart.CartDetails = _mapper.Map<IEnumerable<CartDetailsDto>>(_db.CartDetails
-                .Where(u => u.CartDetailsId == cart.CartHeader.CartHeaderId));
+                .Where(u => u.CartHeaderId == cart.CartHeader.CartHeaderId));
 
             IEnumerable<ProductDto> productDtos = await _productService.GetProducts();
             
@@ -148,7 +148,7 @@ public class CartAPIController : ControllerBase
         return _response;
     }
     
-    [HttpPost("RemoveCard")]
+    [HttpPost("RemoveCart")]
     public async Task<ResponseDto> RemoveCard([FromBody] int cartDetailsId)
     {
         try
