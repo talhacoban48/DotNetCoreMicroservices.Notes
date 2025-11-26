@@ -29,7 +29,7 @@ builder.Services.AddScoped<BackendApiAuthenticationHttpClientHandler>();
 builder.Services.AddHttpClient("Product", u => u.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ServiceUrls:ProductAPI")))
     .AddHttpMessageHandler<BackendApiAuthenticationHttpClientHandler>();
 builder.Services.AddHttpClient("Coupon", u => u.BaseAddress = new Uri(builder.Configuration.GetValue<string>("ServiceUrls:CouponAPI")))
-    .AddHttpMessageHandler<BackendApiAuthenticationHttpClientHandler>();;
+    .AddHttpMessageHandler<BackendApiAuthenticationHttpClientHandler>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
