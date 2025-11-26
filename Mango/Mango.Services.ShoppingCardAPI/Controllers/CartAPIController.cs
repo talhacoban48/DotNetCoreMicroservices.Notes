@@ -31,8 +31,8 @@ public class CartAPIController : ControllerBase
         _couponService = couponService;
     }
     
-    [HttpGet("GetCard/{userId}")]
-    public async Task<ResponseDto> GetCard(string userId)
+    [HttpGet("GetCart/{userId}")]
+    public async Task<ResponseDto> GetCart(string userId)
     {
         try
         {

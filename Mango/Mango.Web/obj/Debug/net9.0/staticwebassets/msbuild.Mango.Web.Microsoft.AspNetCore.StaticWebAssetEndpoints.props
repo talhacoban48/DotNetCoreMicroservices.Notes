@@ -327,8 +327,8 @@
     <StaticWebAssetEndpoint Include="_content/Mango.Web/lib/bootstrap/dist/css/bootstrap.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EPRq0GyIwx04VXIYI96Nb6q1OspDl\u002BtaEuDmBx85u8s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"282327"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EPRq0GyIwx04VXIYI96Nb6q1OspDl\u002BtaEuDmBx85u8s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Oct 2025 17:47:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U/6tnEi2jTEvgBdSMqLILB/TEp9uPUJ0XOPVVgmnx7Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"292565"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022U/6tnEi2jTEvgBdSMqLILB/TEp9uPUJ0XOPVVgmnx7Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Oct 2025 17:50:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Mango.Web/lib/bootstrap/dist/css/bootstrap.css.map">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css.map'))</AssetFile>
@@ -366,11 +366,11 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v0zj4ognzu"},{"Name":"integrity","Value":"sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP\u002BGXYc3V1WwFs="},{"Name":"label","Value":"_content/Mango.Web/lib/bootstrap/dist/css/bootstrap.min.css.map"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"589892"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00228SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP\u002BGXYc3V1WwFs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 19 Oct 2025 09:59:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Mango.Web/lib/bootstrap/dist/css/bootstrap.o2bc9ep49f.css">
+    <StaticWebAssetEndpoint Include="_content/Mango.Web/lib/bootstrap/dist/css/bootstrap.nnslef9mzx.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o2bc9ep49f"},{"Name":"integrity","Value":"sha256-EPRq0GyIwx04VXIYI96Nb6q1OspDl\u002BtaEuDmBx85u8s="},{"Name":"label","Value":"_content/Mango.Web/lib/bootstrap/dist/css/bootstrap.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"282327"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EPRq0GyIwx04VXIYI96Nb6q1OspDl\u002BtaEuDmBx85u8s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Oct 2025 17:47:25 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nnslef9mzx"},{"Name":"integrity","Value":"sha256-U/6tnEi2jTEvgBdSMqLILB/TEp9uPUJ0XOPVVgmnx7Q="},{"Name":"label","Value":"_content/Mango.Web/lib/bootstrap/dist/css/bootstrap.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"292565"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022U/6tnEi2jTEvgBdSMqLILB/TEp9uPUJ0XOPVVgmnx7Q=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Oct 2025 17:50:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Mango.Web/lib/bootstrap/dist/css/bootstrap.rtl.37tfw0ft22.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.css'))</AssetFile>
