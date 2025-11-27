@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mango.Services.ShoppingCardAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54061ddd19d1ec7c1c35b93c190338133d8e5fa3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+352ea6b38f733d91bd8ba3f5117002a01d42955e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mango.Services.ShoppingCardAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mango.Services.ShoppingCardAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
